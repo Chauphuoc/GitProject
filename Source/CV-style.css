@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 60px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.left-section {
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    height:1600px;
+    
+    justify-content:  center;
+    align-items: center;
+    
+}
+.right-section {
+    display:flex;
+    width:800px;
+    height:1600px;
+    flex-direction: column;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+/*left-section*/
+.hello-text {
+    width:200px;
+    height: 750px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(192, 227, 238);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+/*Trai-1*/
+.left-section1 {
+    width:410px ;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(192, 227, 238);
+    border-radius: 10px;
+}
+.logo {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 3px;
+    cursor:pointer;
+}
+.text2 {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 5px;
+    
+    font-weight: bold;
+}
+.cake-logo , 
+.messenger-logo , .face-logo, .location-logo {
+    width:25px;
+}
+.phone-logo {
+    height: 20px;
+    padding-left: 5px;
+}
+/*trai-2*/
+.left-section2 {
+    height: 600px;
+    width:400px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(192, 227, 238);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10PX;
+}
+.bolder {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.bolder1 {
+    margin-top: 0px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    background-color:rgb(192, 227, 238);
+    width: 150px;
+    border-radius: 10px;
+}
+.skill1 {
+    height: 15px;
+    width: 200px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+.skill2 , .skill3 , .skill4, .skill5, .skill6 {
+    height: 15px;
+    width: 180px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+.skill3 {
+    width: 200px;
+}
+.skill4 {
+    width:150px ;
+}
+.skill6 {
+    width: 90px;
+}
+/*right-section*/
+.right-section1 {
+    width: 800px;
+    height:150px;
+    background-color: rgb(126, 190, 126);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.dev {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 10px;
+}
+.right-section2 {
+    background-color: rgb(235, 237, 238);
+    margin-top: 15px;
+    height: 1450px;
+    width: 815px;
+}
+.about-me {
+    width: 815px;
+    height: 50px;
+    background-color: rgb(223, 213, 213);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 0;
+}
+.about1 {
+    width: 25px;
+    height: 50px;
+    background-color: lightblue;
+}
+.about2 {
+    font-size: 35px;
+    padding-left: 10px;
+}
+.phan1 , .phan2 {
+    width: 815px;
+    height: 550px;
+    
+}
+.text-aboutme {
+    font-size: 20px;
+    padding-left: 5px;
+}
+span {
+    padding-left: 15px;
+}
+.phan2 {
+    margin-top: 15px;
+}
+.header {
+    font-size: 22px;
+    font-weight: bolder;
+}
+.about-me1
+{
+    width: 815px;
+    height: 50px;
+    background-color: rgb(223, 213, 213);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+    margin-left: 0;
+    
+    margin-left: -5px;
+}
