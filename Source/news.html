@@ -1,9 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="eu">
   <head>
     <title>new</title>
   </head>
+  <style>
+    table,
+    th,
+    td {
+      border-color: black;
+      border-width: 1px;
+      border-collapse: collapse;
+      padding-left: 10px;
+    }
+    table {
+      width: 900px;
+    }
+    th {
+      color: white;
+      background-color: black;
+      height: 40px;
+    }
+    tr:nth-child(even) {
+      background-color: rgb(212, 209, 209);
+    }
+    td {
+      text-align: left;
+    }
+  </style>
   <body>
-    <p>This is paragrhap</p>
+    <form action="https://www.google.com/" method="get">
+      <div>
+        <label for="name">First name</label>
+        <input type=" text" id="name" placeholder="Phuoc" required /><br />
+      </div>
+      <br />
+      <div>
+        <label for="name">Last name</label>
+        <input type=" text" id="name" placeholder="Chau" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="123456"
+          required
+          maxlength="10"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="tel">Phone</label>
+        <input type="tel" id="tel" placeholder="(+84)09" maxlength="11" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="chauphuoc1996@gmail.com"
+          maxlength="25"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="title">Choose</label>
+
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" name="choose" />
+
+        <label for="Mrs">Mrs.</label>
+        <input type="radio" id="Mrs" name="choose" />
+
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" name="choose" />
+      </div>
+      <br />
+      <div>
+        <label for="payment">Payment</label>
+        <select id="payment">
+          <option value="visa">visa</option>
+          <option value="mastercard">mastercard</option>
+          <option value="tech">tech</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="click">Click</label>
+        <input type="checkbox" id="click" />
+        <label for="put">Put</label>
+        <input type="checkbox" name="" id="Put" />
+      </div>
+      <div>
+        <label for="date">My birthday</label>
+        <input type="date" id="date" placeholder="057" />
+      </div>
+      <br />
+      <div>
+        <input type="reset" />
+        <input type="submit" />
+      </div>
+      <select name="city">
+        <option value="HN">Hà Nội</option>
+        <option value="HP">Hải Phòng</option>
+        <option value="HU">Huế</option>
+        <option value="DN">Đà Nẵng</option>
+        <option value="SG">Sài Gòn</option>
+      </select>
+    </form>
+    <br />
+    <div>
+      <table border="1">
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>

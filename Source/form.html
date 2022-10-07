@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+  </head>
+  <style>
+    .order {
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 40px;
+    }
+    fieldset {
+      margin-right: 500px;
+    }
+  </style>
+  <body>
+    <fieldset>
+      <form action="form.html">
+        <div class="order">ORDER</div>
+        <div>
+          <label for="form">What would you like?</label>
+          <select name="form" id="form">
+            <option value="form">ice</option>
+            <option value="form">meat</option>
+            <option value="form">vegetable</option>
+            <option value="form">cake</option>
+          </select>
+        </div>
+        <div>
+          <label for="sds">How many would you like to order?</label>
+          <label for="cost1">1-$10</label>
+          <input type="radio" name="quantity" id="cost1" />
+
+          <label for="cost2">2-20$</label>
+          <input type="radio" name="quantity" id="cost2" />
+
+          <label for="cost3">3-$25</label>
+          <input type="radio" name="quantity" id="cost3" />
+        </div>
+        <div>
+          <div>
+            Name
+            <p style="color: red; display: inline">*</p>
+          </div>
+        </div>
+        <label for="First-name">First name</label>
+        <input
+          type="text"
+          name="firstname"
+          id="First-name"
+          value="Chau"
+          size="10"
+        />
+
+        <label for="Last-name">Last name</label>
+        <input
+          type="text"
+          name="Lastname"
+          id="Last-name"
+          value="Phuoc"
+          size="10"
+        />
+        <br />
+        <label for="Email">Email</label>
+        <input
+          type="email"
+          name="email  "
+          id="Email"
+          value="Chauphuoc1996@gmail"
+        />
+        <div>
+          <p>Phone number</p>
+          <input type="tel" name="number" value="(+84)" size="13" />
+          <span>-</span>
+          <input type="tel" name="number" size="13" />
+          <span>-</span>
+          <input type="tel" name="number" size="13" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
