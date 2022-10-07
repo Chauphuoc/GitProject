@@ -4,13 +4,22 @@
     <title>form</title>
   </head>
   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+    }
     .order {
       font-size: 25px;
       font-weight: bold;
       padding-left: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
     }
     fieldset {
-      margin-right: 500px;
+      width: 480px;
     }
   </style>
   <body>
@@ -18,16 +27,17 @@
       <form action="form.html">
         <div class="order">ORDER</div>
         <div>
-          <label for="form">What would you like?</label>
-          <select name="form" id="form">
+          <label for="form"> <b>What would you like?</b> </label>
+          <select style="font-size: 15px" name="form" id="form">
             <option value="form">ice</option>
             <option value="form">meat</option>
             <option value="form">vegetable</option>
             <option value="form">cake</option>
           </select>
         </div>
+        <br />
         <div>
-          <label for="sds">How many would you like to order?</label>
+          <label for="sds"> <b>How many would you like to order?</b> </label>
           <label for="cost1">1-$10</label>
           <input type="radio" name="quantity" id="cost1" />
 
@@ -37,13 +47,16 @@
           <label for="cost3">3-$25</label>
           <input type="radio" name="quantity" id="cost3" />
         </div>
+        <br />
         <div>
           <div>
-            Name
+            <b>Name</b>
+
             <p style="color: red; display: inline">*</p>
           </div>
+          <br />
         </div>
-        <label for="First-name">First name</label>
+        <label for="First-name"> <b>First name</b> </label>
         <input
           type="text"
           name="firstname"
@@ -52,7 +65,7 @@
           size="10"
         />
 
-        <label for="Last-name">Last name</label>
+        <label for="Last-name"> <b>Last name</b> </label>
         <input
           type="text"
           name="Lastname"
@@ -61,7 +74,8 @@
           size="10"
         />
         <br />
-        <label for="Email">Email</label>
+        <br />
+        <label for="Email"> <b>Email</b> </label>
         <input
           type="email"
           name="email  "
@@ -69,12 +83,18 @@
           value="Chauphuoc1996@gmail"
         />
         <div>
-          <p>Phone number</p>
-          <input type="tel" name="number" value="(+84)" size="13" />
+          <p><b>Phone number</b></p>
+          <input
+            style="font-size: 15px"
+            type="tel"
+            name="number"
+            value="(+84)"
+            size="13"
+          />
           <span>-</span>
-          <input type="tel" name="number" size="13" />
+          <input style="font-size: 15px" type="tel" name="number" size="13" />
           <span>-</span>
-          <input type="tel" name="number" size="13" />
+          <input style="font-size: 15px" type="tel" name="number" size="13" />
         </div>
       </form>
     </fieldset>
