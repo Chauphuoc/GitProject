@@ -1,0 +1,126 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+    }
+    .border1 {
+      background-color: rgb(108, 243, 243);
+      width: 600px;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .border2 {
+      background-color: white;
+      width: 550px;
+      height: 320px;
+    }
+    .header1 {
+      background-color: lightsalmon;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 5px;
+      color: white;
+    }
+    .total {
+      margin-top: 8px;
+    }
+    .name {
+      margin-bottom: 15px;
+      margin-left: 78px;
+      color: blue;
+    }
+    .hobby {
+      display: flex;
+      flex-direction: row;
+    }
+    .hobby1 {
+      width: 130px;
+      display: flex;
+      justify-content: right;
+      color: blue;
+    }
+    .name2 {
+      margin-bottom: 15px;
+      margin-left: 102px;
+      color: blue;
+    }
+    .final {
+      padding-left: 10px;
+      width: 319px;
+    }
+    span label {
+      margin-right: 15px;
+    }
+    .bottom1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      margin-top: 20px;
+      justify-content: space-between;
+      margin-left: 140px;
+    }
+  </style>
+  <body>
+    <div class="border1">
+      <div class="border2">
+        <div class="header1">SỞ THÍCH CỦA BẠN</div>
+        <form class="total" action="">
+          <div class="name">
+            <label for="name">Họ và tên</label>
+            <input type="text" name="name" id="name" />
+          </div>
+
+          <div class="name2">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <br />
+          <div class="hobby">
+            <div class="hobby1">Sở thích</div>
+            <span class="final">
+              <input type="checkbox" name="hobby " id="thethao" />
+              <label for="thethao">Thể thao</label>
+
+              <input type="checkbox" name="" id="music" />
+              <label for="music">Âm nhạc</label>
+
+              <input type="checkbox" id="docsach" />
+              <label for="docsach">Đọc sách</label>
+
+              <input type="checkbox" id="Luotweb" />
+              <label for="Luotweb">Lướt web</label>
+
+              <input type="checkbox" id="game" />
+              <label for="game">Chơi game</label>
+
+              <input type="checkbox" id="dienanh" />
+              <label for="dienanh">Điện ảnh</label>
+
+              <input type="checkbox" id="dulich" />
+              <label for="dulich">Du lịch</label>
+            </span>
+          </div>
+          <div class="bottom1">
+            <input type="submit" value="Gửi thông tin" />
+            <input type="reset" value="Nhập lại" name="" id="" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
