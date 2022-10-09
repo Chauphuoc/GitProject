@@ -1,0 +1,172 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .background {
+      background-color: rgb(226, 226, 126);
+      width: 700px;
+      height: 500px;
+      margin-top: 30px;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+    }
+    .signup {
+      background-color: lightblue;
+      padding-left: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 10px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      color: blue;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bolder;
+    }
+    .left-section {
+      width: 100px;
+      height: 316px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      justify-content: space-between;
+      padding-top: 15px;
+      padding-left: 10px;
+    }
+    .right-section {
+      width: 300px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      padding-top: 15px;
+      position: relative;
+    }
+    .body1 {
+      display: flex;
+      flex-direction: row;
+    }
+    .location {
+      height: 55px;
+      margin-bottom: 10px;
+    }
+    .select {
+      padding: 2px 5px;
+      width: 150px;
+      border: 1px solid rgb(177, 174, 174);
+      cursor: pointer;
+    }
+    .select:focus,
+    .select:hover {
+      outline: none;
+      border: 1px solid rgb(143, 135, 135);
+    }
+    select option {
+      background-color: white;
+    }
+    .final {
+      position: absolute;
+      bottom: 160px;
+      display: flex;
+      flex-direction: row;
+      left: 463px;
+      display: flex;
+    }
+    .signin,
+    .reset {
+      margin-right: 20px;
+      padding: 4px 7px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <div class="background">
+      <div class="signup">ĐĂNG KÝ HỌC VIÊN</div>
+      <form class="body1">
+        <div class="left-section">
+          <span>Họ và tên</span>
+          <span>Ngày sinh</span>
+          <span>Giới tính</span>
+          <span style="height: 27px">Địa chỉ</span>
+          <span style="margin-top: 10px">Lớp</span>
+          <span>Email</span>
+          <span>Điện thoại</span>
+        </div>
+        <div class="right-section">
+          <input
+            style="
+              margin-bottom: 25px;
+              width: 200px;
+              border-top: 2px solid black;
+              border-left: 2px solid black;
+            "
+            type="text"
+            name="name"
+            id="name"
+          />
+          <input
+            style="
+              margin-bottom: 25px;
+              width: 150px;
+              border-top: 2px solid black;
+              border-left: 2px solid black;
+            "
+            type="date"
+            id="date"
+          />
+          <span style="margin-bottom: 25px">
+            <label for="male" style="width: 20%">Nam</label>
+            <input type="radio" id="male" name="1" style="width: 20%" />
+            <label for="female" style="width: 20%">Nữ</label>
+            <input type="radio" name="1" id="female" style="width: 20%" />
+          </span>
+          <input
+            type="location"
+            name=""
+            id=""
+            class="location"
+            style="border-top: 2px solid black; border-left: 2px solid black"
+          />
+          <select
+            class="select"
+            style="border-top: 2px solid black; border-left: 2px solid black"
+          >
+            <option disable>-----Chọn lớp-------</option>
+
+            <option value="Lopa">Lớp 12A</option>
+            <option value="Lopb ">Lớp 12B</option>
+            <option value="Lopc ">Lớp 12C</option>
+          </select>
+          <div>
+            <input
+              class="border-top: 2px solid black;"
+              style="margin-top: 25px; border-left: 2px solid black"
+              type="email"
+            />
+          </div>
+          <div style="margin-top: 25px">
+            <input
+              style="border-top: 2px solid black; border-left: 2px solid black"
+              type="phone"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div class="final">
+          <div>
+            <input class="signin" type="submit" name="" value="Đăng ký" id="" />
+          </div>
+          <div>
+            <input class="reset" type="reset" name="" id="" value="Nhập lại" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
